@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+<link rel=\"icon\" href=\"data:,\">
+
+<style>
+html { 
+    font-family: Helvetica; 
+    display: inline-block; 
+    margin: 0px 
+    auto; text-align: 
+    center;}
+.button { 
+    background-color: #22ff00;
+    border: none; 
+    color: white; 
+    padding: 16px 40px;
+    text-decoration: none; 
+    font-size: 30px; 
+    margin: 2px; 
+    cursor: pointer;
+}
+.button2 {
+    background-color: #ff0000;
+    }
+</style>
+</head>
+
+<body><h1>Controll LED on ESP32 via Web Server (port 80)</h1>
+<table align="center">
+    <th>LED 1</th>
+    <th>LED 2</th>
+    <tr>
+        <td><a href="/1/on"><button class="button">ON</button></a></td>
+        <td><a href="/2/on"><button class="button">ON</button></a></td>
+    </tr>
+</table>
+</body></html>
